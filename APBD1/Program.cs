@@ -8,9 +8,9 @@
 
     public static double Average(int[] numbers)
     {
-        double sigma = 0;
-        numbers.Sum(x => sigma += x);
-        return sigma / numbers.Length;
+        double suma = 0;
+        numbers.Sum(x => suma += x);
+        return suma / numbers.Length;
     }
 
     public static int Max(int[] numbers)
